@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>20fe59ee-a5c0-4a58-98fe-7174760088bc</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Little_Book_of_Algorithms.py</StartupFile>
+    <StartupFile>calculateArea.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,29 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Little_Book_of_Algorithms.py" />
+    <Compile Include="calculateArea.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="lowernumber.py" />
+    <Compile Include="linearSearch2D.py" />
+    <Compile Include="module1 - Copy %2811%29.py" />
+    <Compile Include="module1 - Copy %2812%29.py" />
+    <Compile Include="module1 - Copy %2813%29.py" />
+    <Compile Include="module1 - Copy %282%29.py" />
+    <Compile Include="module1 - Copy %283%29.py" />
+    <Compile Include="module1 - Copy %284%29.py" />
+    <Compile Include="module1 - Copy %285%29.py" />
+    <Compile Include="module1 - Copy %286%29.py" />
+    <Compile Include="linearSearch.py" />
+    <Compile Include="lowestNumber.py" />
+    <Compile Include="numberGuesser.py" />
+    <Compile Include="outputNumber.py" />
+    <Compile Include="oddEven.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="username.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
